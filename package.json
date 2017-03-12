@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/daram529/PersonalProj#readme",
   "dependencies": {
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "semantic-ui": "^2.2.9"
   }
 }
