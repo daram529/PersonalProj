@@ -1,15 +1,77 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
+  	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>WannaGraduate</title>
+    <!-- <script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css">
   </head>
   <body>
-    <h1>Hello HTML</h1>
-    <h2>I'm Minkyu</h2>
-    <a href="http://google.com">구글으로 이동</a>
-    <div id="fileSubmit">
-    <input type="file" accept="application/vnd.ms-excel" />
-    <input type="submit" value="Submit" />
-    </div>
+  	<div class="ui inverted segment">
+	  <div class="ui inverted secondary pointing menu">
+	    <a class="item">
+	      Home
+	    </a>
+	    <a class="item">
+	      Messages
+	    </a>
+	    <a class="item active">
+	      Friends
+	    </a>
+	  </div>
+	</div>
+	<div class="ui floating dropdown labeled search icon button">
+	  <i class="world icon"></i>
+	  <span class="text">Select Language</span>
+	  <div class="menu">
+	    <div class="item">Arabic</div>
+	    <div class="item">Chinese</div>
+	    <div class="item">Danish</div>
+	    <div class="item">Dutch</div>
+	    <div class="item">English</div>
+	    <div class="item">French</div>
+	    <div class="item">German</div>
+	    <div class="item">Greek</div>
+	    <div class="item">Hungarian</div>
+	    <div class="item">Italian</div>
+	    <div class="item">Japanese</div>
+	    <div class="item">Korean</div>
+	    <div class="item">Lithuanian</div>
+	    <div class="item">Persian</div>
+	    <div class="item">Polish</div>
+	    <div class="item">Portuguese</div>
+	    <div class="item">Russian</div>
+	    <div class="item">Spanish</div>
+	    <div class="item">Swedish</div>
+	    <div class="item">Turkish</div>
+	    <div class="item">Vietnamese</div>
+	  </div>
+	</div>
+	<form id        =  "uploadForm"
+	     enctype   =  "multipart/form-data"
+	     action    =  "upload"
+	     method    =  "post">
+	<select name="hello">
+	    <option value="volvo">일반</option>
+	    <option value="saab">복수전공</option>
+	    <option value="fiat">부전공</option>
+	    <option value="audi">심화전공</option>
+    </select>
+	<input type="file" name="file" accept="application/vnd.ms-excel"/>
+	<input type="submit" value="Upload" name="submit">
+	<div class="ui input">
+	  <input type="text" placeholder="Search...">
+	</div>
+	</form>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+    <script>
+    $('.ui.dropdown').dropdown();
+</script>
   </body>
 </html>

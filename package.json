@@ -1,23 +1,24 @@
 {
-  "name": "wannagraduate",
+  "name": "excelupload",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daram529/PersonalProj.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/daram529/PersonalProj/issues"
-  },
-  "homepage": "https://github.com/daram529/PersonalProj#readme",
   "dependencies": {
-    "jade": "^1.11.0",
-    "semantic-ui": "^2.2.9"
+    "body-parser": "^1.15.1",
+    "excel-parser": "^0.2.2",
+    "express": "^4.13.4",
+    "formidable": "^1.1.1",
+    "multer": "^1.1.0",
+    "node-xls": "0.0.8",
+    "node-xlsx": "^0.7.4",
+    "semantic-ui": "^2.2.9",
+    "xls-to-json-lc": "^0.3.3",
+    "xlsx-to-json-lc": "^0.2.5"
   }
 }
